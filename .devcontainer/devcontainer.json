@@ -1,0 +1,25 @@
+{
+    "name"  : "Rust",
+    "build" :
+    {
+        "dockerfile" : "../Dockerfile",
+        "context"    : ".."
+    },
+
+    "customizations": 
+    {
+        "vscode": 
+        {
+            "extensions": 
+            [
+                "vadimcn.vscode-lldb",
+                "rust-lang.rust-analyzer",
+                "tonybaloney.vscode-pets"
+            ]
+        }
+    },
+
+    "workspaceFolder": "/workspace",
+    "runArgs": ["--init", "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
+    "remoteUser": "root"
+}
