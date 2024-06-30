@@ -39,7 +39,7 @@ Before using the development container, ensure you have the following installed:
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/YourUsername/rust-dev-container.git
+    git clone https://github.com/ChristopherRFord/rust-dev-container.git
     cd rust-dev-container
     ```
 
